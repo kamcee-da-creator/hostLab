@@ -1,0 +1,198 @@
+:root {
+  --primary-color: #333;
+  --secondary-color: #6f0556;
+  --tetiary-color: #5e0349;
+  --border-color: #b4becb;
+  --light-color: #f4f4f4;
+  /* --secondary-color: #047aed; */
+  --dark-color: #002240;
+
+  --white: #fff;
+  --font-size: 16px;
+}
+.darkp{
+  background: var(--tetiary-color);
+  color: var(--white);
+}
+.darkp a{
+  color: var(--white);
+  outline: none;
+}
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+/* General utilities */
+.flex {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+.card {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+  margin: 10px;
+  color: var(--primary-color);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.text-center {
+  text-align: center;
+}
+.red {
+  background-color: red;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: var(--secondary-color);
+  color: var(--white);
+  border: none;
+  border-radius: 5px;
+}
+.btn-outline {
+  background-color: transparent;
+  border: var(--white) solid;
+}
+.btn:hover {
+  transform: scale(0.98);
+  transition: 0.1s;
+}
+/* backgrounds ND COLORED BUTTONS*/
+.bg-primary,
+.btn-primary {
+  background-color: var(--secondary-color);
+  color: var(--white);
+}
+.bg-light,
+.btn-light {
+  background-color: var(--light-color);
+  color: var(--primary-color);
+}
+.bg-dark,
+.btn-dark {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+.margin-50 {
+  margin: 10rem 0rem;
+}
+/* text sizes */
+.lead {
+  font-size: 20px;
+}
+.sm {
+  font-size: 1rem;
+}
+.md {
+  font-size: 2rem;
+}
+.lg {
+  font-size: 3rem;
+}
+.xl {
+  font-size: 4rem;
+}
+/* margin*/
+.my-1 {
+  margin: 1rem 0;
+}
+.my-2 {
+  margin: 1.5rem 0;
+}
+.my-3 {
+  margin: 2rem 0;
+}
+.my-4 {
+  margin: 3rem 0;
+}
+.my-5 {
+  margin: 4rem 0;
+}
+/* margin allround */
+.m-1 {
+  margin: 1rem 0;
+}
+.m-2 {
+  margin: 1.5rem 0;
+}
+.m-3 {
+  margin: 2rem 0;
+}
+.m-4 {
+  margin: 3rem 0;
+}
+.m-5 {
+  margin: 4rem 0;
+}
+/* padding */
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 1.5rem 0;
+}
+.py-3 {
+  padding: 2rem 0;
+}
+.py-4 {
+  padding: 3rem 0;
+}
+.py-5 {
+  padding: 4rem 0;
+}
+/* padding 2 */
+.p-1 {
+  padding: 1rem 0;
+}
+.p-2 {
+  padding: 1.5rem 0;
+}
+.p-3 {
+  padding: 2rem 0;
+}
+.p-4 {
+  padding: 3rem 0;
+}
+.p-5 {
+  padding: 4rem 0;
+}
